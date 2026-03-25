@@ -2,16 +2,16 @@
 
 ## 📌 Project Overview
 
-This project presents an interactive Power BI dashboard analyzing retail sales, profit, and customer behavior using the Superstore dataset. The dashboard provides clear insights into business performance across regions, categories, and products, enabling data-driven decision-making.
+This project presents an interactive Power BI dashboard analyzing retail sales, profit, and customer trends using the Superstore dataset. The dashboard provides clear and actionable insights into business performance across regions, categories, and products to support data-driven decision-making.
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze overall sales and profit performance
-* Identify top-performing regions, categories, and sub-categories
+* Analyze total sales and profit performance
+* Identify top-performing regions and product categories
+* Understand sub-category level sales distribution
 * Evaluate order volume and quantity trends
-* Understand the relationship between sales and profitability
 * Build an interactive dashboard for business insights
 
 ---
@@ -19,30 +19,30 @@ This project presents an interactive Power BI dashboard analyzing retail sales, 
 ## 🛠️ Tools & Technologies
 
 * **Power BI Desktop**
-* **Power Query** (data cleaning & transformation)
-* **DAX** (data modeling & calculations)
-* **CSV Dataset (Superstore)**
+* **Power Query (ETL & Data Cleaning)**
+* **DAX (Data Analysis Expressions)**
+* **Excel Dataset**
 
 ---
 
 ## 📈 Key Metrics
 
-* **Total Sales**
-* **Total Profit**
-* **Total Orders**
-* **Total Quantity**
-* **Profit Margin (%)**
+* Total Sales
+* Total Profit
+* Total Orders
+* Total Quantity
+* Profit Margin (%)
 
 ---
 
 ## 📊 Dashboard Features
 
-* Interactive KPI cards for a quick performance overview
+* KPI cards for a quick business overview
 * Sales analysis by region
 * Profit analysis by category
-* Sub-category level sales breakdown
-* Dynamic filtering using slicers (Region, Category, Segment)
-* Clean and user-friendly dashboard layout
+* Sales breakdown by sub-category
+* Interactive slicers (Region, Category, Segment)
+* Clean and user-friendly layout
 
 ---
 
@@ -57,30 +57,48 @@ This project presents an interactive Power BI dashboard analyzing retail sales, 
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](screenshots/dashboard.png)
+### 🔹 Main Dashboard
+
+![Main Dashboard](main dashboard 1.png)
+
+### 🔹 Additional Views
+
+![Dashboard](dashboard 2.png)
+![Dashboard](dashboard 3.png)
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 superstore-powerbi-dashboard/
 │
-├── data/                # Dataset used for analysis
-├── pbix/                # Power BI dashboard file
-├── screenshots/         # Dashboard preview images
-└── README.md            # Project documentation
+├── superstore-powerbi-dashboard.pbix   # Power BI dashboard file
+├── superstore_sample.csv.xlsx          # Dataset used
+├── main dashboard 1.png                # Main dashboard screenshot
+├── dashboard 2.png                    # Additional screenshot
+├── dashboard 3.png                    # Additional screenshot
+└── README.md
 ```
 
 ---
 
 ## 🚀 Business Value
 
-This dashboard helps stakeholders quickly identify high-performing areas, detect underperforming segments, and make informed strategic decisions to improve sales and profitability.
+This dashboard helps stakeholders quickly identify high-performing regions, detect underperforming segments, and make informed decisions to improve overall business performance and profitability.
+
+---
+
+## 💡 Skills Demonstrated
+
+* Data Cleaning & Transformation (Power Query)
+* Data Modeling & DAX Measures
+* Data Visualization & Dashboard Design
+* Business Insight Generation
 
 ---
 
 ## 📬 Contact
 
-If you have any feedback or suggestions, feel free to connect with me.
+Feel free to connect or reach out for feedback and collaboration.
 
